@@ -1,0 +1,25 @@
+GET http://localhost:3000/home
+###
+POST  http://localhost:3000/register
+Content-Type: application/json
+
+{   
+
+    "user_name":"hoka",
+    "password":"123"
+
+    
+}
+###
+PUT http://localhost:3000/67b980b04aa4e80ce05db8fb
+###
+DELETE http://localhost:5000/delete/67d2e96174a5832f11717366
+###
+PATCH  http://localhost:5000/update/67d2eb0e134537a53b6a1bff
+Content-Type: application/json
+
+{
+    "name":"osck",
+    "email":"os@gmail.com",
+    "password":"2026"
+}
